@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shipyard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- <button type="button" id='createFighterBtn'class="btn btn-secondary">Create Fighter</button> -->
+    <!-- <button type="button" id='createMInerBtn'class="btn btn-secondary">Create Miner</button> -->
+    <!-- <button type="button" id='createCargoBtn'class="btn btn-secondary">Create Cargo</button> -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#fighterModal">
+        Create Fighter
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="fighterModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalCenterTitle">Create Fighter</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <input type="text" name="" id="name" placeholder="name">
+                    <input type="text" name="" id="pilot" placeholder="pilot">
+                    <input type="number" name="" id="fuel" placeholder="fuel tank capacity">
+                    <input type="text" name="" id="fuel" placeholder="Current location">
+                    <select name="type">
+                                        <option value="fighter" class="typevalue">Fighter</option>
+                        <option value="cargo" class="typevalue">cargo</option>
+                        <option value="miner" class="typevalue">Miner</option>
+                      </select>
+                    <input type="text" name="" id="weapons" placeholder="weapons">
+                    <input type="number" name="" id="shield" placeholder="Shield">
+                    <input type="number" name="" id="cargoCapacity" placeholder="cargoCapacity">
+                    <input type="text" name="" id="tradingRoute" placeholder="tradingRoute">
+                    <input type="number" name="" id="loadingCranes" placeholder="loadingCranes">
+                    <input type="text" name="" id="miningTools" placeholder="miningTools">
+                    <input type="text" name="" id="miningTypes" placeholder="miningTypes">
+                    <input type="number" name="" id="miningStorage" placeholder="miningStorage">
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" id='createFighter'>Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cargoModal">
+        Create cargo
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="cargoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalCenterTitle">Create Cargo</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <input type="text" name="" id="name-cargo" placeholder="name">
+                    <input type="text" name="" id="pilot-cargo" placeholder="pilot">
+                    <input type="number" name="" id="fuel-cargo" placeholder="fuel tank capacity">
+                    <input type="text" name="" id="curentLoc-cargo" placeholder="Current location">
+                    <select name="type-cargo">
+                        <option value="fighter" class="typevalue-cargo">Fighter</option>
+                        <option value="cargo" class="typevalue-cargo">cargo</option>
+                        <option value="miner" class="typevalue-cargo">Miner</option>
+                      </select>
+                    <input type="text" name="" id="weapons-cargo" placeholder="weapons">
+                    <input type="number" name="" id="shield-cargo" placeholder="Shield">
+                    <input type="number" name="" id="cargoCapacity-cargo" placeholder="cargoCapacity">
+                    <input type="text" name="" id="tradingRoute-cargo" placeholder="tradingRoute">
+                    <input type="number" name="" id="loadingCranes-cargo" placeholder="loadingCranes">
+                    <input type="text" name="" id="miningTools-cargo" placeholder="miningTools">
+                    <input type="text" name="" id="miningTypes-cargo" placeholder="miningTypes">
+                    <input type="number" name="" id="miningStorage-cargo" placeholder="miningStorage">
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" id='createCargo'>Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#minerModal">
+        Create Miner
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="minerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalCenterTitle">Create Miner</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <input type="text" name="" id="name-miner" placeholder="name">
+                    <input type="text" name="" id="pilot-miner" placeholder="pilot">
+                    <input type="number" name="" id="fuel-miner" placeholder="fuel tank capacity">
+                    <input type="text" name="" id="curentLoc-miner" placeholder="Current location">
+                    <select name="type-miner">
+                                        <option value="fighter" class="typevalue-miner">Fighter</option>
+                        <option value="cargo" class="typevalue-miner">cargo</option>
+                        <option value="miner" class="typevalue-miner">Miner</option>
+                      </select>
+                    <input type="text" name="" id="weapons-miner" placeholder="weapons">
+                    <input type="number" name="" id="shield=-miner" placeholder="Shield">
+                    <input type="number" name="" id="cargoCapacity-miner" placeholder="cargoCapacity">
+                    <input type="text" name="" id="tradingRoute-miner" placeholder="tradingRoute">
+                    <input type="number" name="" id="loadingCranes-miner" placeholder="loadingCranes">
+                    <input type="text" name="" id="miningTools-miner" placeholder="miningTools">
+                    <input type="text" name="" id="miningTypes-miner" placeholder="miningTypes">
+                    <input type="number" name="" id="miningStorage-miner" placeholder="miningStorage">
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" id='createMiner'>Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+    <div class="shipyard container">
+        <div class="station row">
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="./models/starships.js"></script>
+    <script src="./app.js"></script> 
+</body>
+</html>
