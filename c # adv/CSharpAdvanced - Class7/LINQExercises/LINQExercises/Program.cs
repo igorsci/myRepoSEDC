@@ -12,16 +12,15 @@ namespace LINQExercises
             bool allSame = false;
             if (p.Dogs.Count > 0)
             {
-                var firstDog = p.Dogs[0];
-                for (var i = 1; i < p.Dogs.Count-1; i++)
+                //var firstDog = p.Dogs[0];
+                for (var i = 0; i < p.Dogs.Count; i++)
                 {
-                    if (p.Dogs[i].Race == p.Dogs[i + 1].Race)
+                    for (var j = i+1; j < p.Dogs.Count; j++)
                     {
-                        allSame = true;
-                    }
-                    else
-                    {
-                        allSame = false;
+                        if (p.Dogs[i].Race == p.Dogs[j].Race)
+                        {
+                            allSame = true;
+                        }
                     }
                 }
                 if (allSame ==true)
@@ -165,7 +164,7 @@ namespace LINQExercises
 
             // 6
 
-            var Erika = people.Where(n => n.FirstName == "Larry").FirstOrDefault();
+            var Erika = people.Where(n => n.FirstName == "Erika").FirstOrDefault();
             var ErikaDogs = dogs.Where(d => d.Race == Race.Retriever).ToList();
             Erika.Dogs.AddRange(ErikaDogs);
 
