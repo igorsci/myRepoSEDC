@@ -6,15 +6,16 @@ namespace LINQExercises
 {
     class Program
     {
+
         public static bool CheckIfDogsSame(Person p)
         {
             bool allSame = false;
             if (p.Dogs.Count > 0)
             {
                 var firstDog = p.Dogs[0];
-                for (var i = 1; i > p.Dogs.Count - 1; i++)
+                for (var i = 1; i < p.Dogs.Count-1; i++)
                 {
-                    if (p.Dogs[0].Race == p.Dogs[i].Race)
+                    if (p.Dogs[i].Race == p.Dogs[i + 1].Race)
                     {
                         allSame = true;
                     }
@@ -22,6 +23,10 @@ namespace LINQExercises
                     {
                         allSame = false;
                     }
+                }
+                if (allSame ==true)
+                {
+                    Console.WriteLine(p.FirstName + p.LastName + p.Occupation);
                 }
             }
 
@@ -125,14 +130,14 @@ namespace LINQExercises
             var cristofer = people.Where(n => n.FirstName == "Cristofer").FirstOrDefault();
             var CristoferDogs = dogs.Where(d => d.Name == "Jack" || d.Name == "Ellie" || d.Name == "Hank" || d.Name == "Tilly").ToList();
 
-            
+
             cristofer.Dogs.AddRange(CristoferDogs);
 
 
             //foreach (var dog in cristofer.Dogs)
             //{
             //  Console.WriteLine(dog.Name);
-             
+
             //}
 
             //2. 
@@ -164,6 +169,14 @@ namespace LINQExercises
             var ErikaDogs = dogs.Where(d => d.Race == Race.Retriever).ToList();
             Erika.Dogs.AddRange(ErikaDogs);
 
+            Console.WriteLine("erikas dogs check ");
+            foreach (var dog in Erika.Dogs)
+            {
+                Console.WriteLine(dog.Name + dog.Race);
+
+            }
+            Console.WriteLine("erikas dogs check ");
+
             //7 // 7. Erin has Chet and Ava and now give Diesel to August thah previously has just Rigby
 
             var ErinDogs2 = dogs.Where(d => d.Name == "Chet" || d.Name == "Ava").ToList();
@@ -176,7 +189,7 @@ namespace LINQExercises
 
             foreach (var dog in Erin.Dogs)
             {
-              Console.WriteLine(dog.Name);
+                Console.WriteLine(dog.Name);
 
             }
 
@@ -185,7 +198,7 @@ namespace LINQExercises
 
 
             var August = people.Where(n => n.FirstName == "August").FirstOrDefault();
-            var AugustDogs = dogs.Where(d => d.Name == "Diesel" || d.Name=="Rigby").ToList();
+            var AugustDogs = dogs.Where(d => d.Name == "Diesel" || d.Name == "Rigby").ToList();
             August.Dogs.AddRange(AugustDogs);
 
             foreach (var item in August.Dogs)
@@ -195,7 +208,7 @@ namespace LINQExercises
 
 
 
-            
+
 
             //PART 3 - LINQ
             // 1. Find and print all persons firstnames starting with 'R', ordered by age - DESCENDING ORDER.
@@ -212,7 +225,7 @@ namespace LINQExercises
             // 2. Find and print all brown dogs names and ages older than 3 years, ordered by age - ASCENDING ORDER.
 
 
-            var brownDogs = dogs.Where(c => c.Color == Color.Brown || c.Age > 3).OrderBy(c=>c.Age);
+            var brownDogs = dogs.Where(c => c.Color == Color.Brown || c.Age > 3).OrderBy(c => c.Age);
             foreach (var dog in brownDogs)
             {
                 Console.WriteLine(dog.Name + dog.Age);
@@ -231,28 +244,30 @@ namespace LINQExercises
             }
 
             // 4. Find and print all persons names, last names and job positions that have just one race type dogs.
-
+            Console.WriteLine("gledaj tuka za kucinja so edna rasa");
             foreach (var item in people)
             {
                 CheckIfDogsSame(item);
+                
+                
             }
-            Console.WriteLine("gledaj tuka za kucinja so edna rasa");
-
-            
-           
-            
+                Console.WriteLine("gledaj tuka za kucinja so edna rasa");
 
 
-            // 5. Find and print all Freddy`s dogs names older than 1 year, grouped by dogs race.
-            // 6. Find and print last 10 persons grouped by their age.
-            // 7. Find and print all dogs names from Cristofer, Freddy, Erin and Amelia, grouped by color and ordered by name - ASCENDING ORDER.
-            // 8. Find and persons that have same dogs races and order them by name length ASCENDING, then by age DESCENDING.
-            // 9. Find the last dog of Amelia and print all dogs form other persons older than Amelia, ordered by dogs age DESCENDING.
-            // 10. Find all developers older than 20 with more than 1 dog that contains letter 'e' in the name and print their names and job positions.
 
 
-            Console.ReadLine();
-            #endregion
+
+
+                // 5. Find and print all Freddy`s dogs names older than 1 year, grouped by dogs race.
+                // 6. Find and print last 10 persons grouped by their age.
+                // 7. Find and print all dogs names from Cristofer, Freddy, Erin and Amelia, grouped by color and ordered by name - ASCENDING ORDER.
+                // 8. Find and persons that have same dogs races and order them by name length ASCENDING, then by age DESCENDING.
+                // 9. Find the last dog of Amelia and print all dogs form other persons older than Amelia, ordered by dogs age DESCENDING.
+                // 10. Find all developers older than 20 with more than 1 dog that contains letter 'e' in the name and print their names and job positions.
+
+
+                Console.ReadLine();
+                #endregion
+            }
         }
     }
-}

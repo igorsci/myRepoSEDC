@@ -12,3 +12,10 @@ C:\Users\igor.mitevski\Desktop\IGOR M\myRepoGIT\c # adv\CSharpAdvanced - Class7\
 C:\Users\igor.mitevski\Desktop\IGOR M\myRepoGIT\c # adv\CSharpAdvanced - Class7\LINQExercises\LINQExercises\obj\Debug\LINQExercises.csproj.CoreCompileInputs.cache
 C:\Users\igor.mitevski\Desktop\IGOR M\myRepoGIT\c # adv\CSharpAdvanced - Class7\LINQExercises\LINQExercises\obj\Debug\LINQExercises.exe
 C:\Users\igor.mitevski\Desktop\IGOR M\myRepoGIT\c # adv\CSharpAdvanced - Class7\LINQExercises\LINQExercises\obj\Debug\LINQExercises.pdb
+C:\Users\igor\Desktop\SEDC_ACA\my repo git\myRepoSEDC\c # adv\CSharpAdvanced - Class7\LINQExercises\LINQExercises\bin\Debug\LINQExercises.exe.config
+C:\Users\igor\Desktop\SEDC_ACA\my repo git\myRepoSEDC\c # adv\CSharpAdvanced - Class7\LINQExercises\LINQExercises\bin\Debug\LINQExercises.exe
+C:\Users\igor\Desktop\SEDC_ACA\my repo git\myRepoSEDC\c # adv\CSharpAdvanced - Class7\LINQExercises\LINQExercises\bin\Debug\LINQExercises.pdb
+C:\Users\igor\Desktop\SEDC_ACA\my repo git\myRepoSEDC\c # adv\CSharpAdvanced - Class7\LINQExercises\LINQExercises\obj\Debug\LINQExercises.csprojAssemblyReference.cache
+C:\Users\igor\Desktop\SEDC_ACA\my repo git\myRepoSEDC\c # adv\CSharpAdvanced - Class7\LINQExercises\LINQExercises\obj\Debug\LINQExercises.csproj.CoreCompileInputs.cache
+C:\Users\igor\Desktop\SEDC_ACA\my repo git\myRepoSEDC\c # adv\CSharpAdvanced - Class7\LINQExercises\LINQExercises\obj\Debug\LINQExercises.exe
+C:\Users\igor\Desktop\SEDC_ACA\my repo git\myRepoSEDC\c # adv\CSharpAdvanced - Class7\LINQExercises\LINQExercises\obj\Debug\LINQExercises.pdb
