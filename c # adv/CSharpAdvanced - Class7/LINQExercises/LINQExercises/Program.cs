@@ -34,6 +34,50 @@ namespace LINQExercises
 
         }
 
+        public static void GroupBySinglePropertyDog(List<Dog>dogs)
+        {
+            Console.WriteLine("Group by a single property in an object:");
+
+            // Variable queryLastNames is an IEnumerable<IGrouping<string, 
+            // DataClass.Student>>. 
+            var queryDogs =
+                from dog in dogs
+                group dog by dog.Race into newGroup
+                orderby newGroup.Key
+                select newGroup;
+
+            foreach (var nameGroup in queryDogs)
+            {
+                Console.WriteLine($"Key: {nameGroup.Key}");
+                foreach (var dog in nameGroup)
+                {
+                    Console.WriteLine($"\t{dog.Name}, {dog.Race}");
+                }
+            }
+        }
+
+
+        public static void GroupBySinglePropertyPerson(List<Person> persons)
+        {
+            Console.WriteLine("Group by a single property in an object:");
+
+            // Variable queryLastNames is an IEnumerable<IGrouping<string, 
+            // DataClass.Student>>. 
+            var queryPersons =
+                from person in persons
+                group person by person.Age into newGroup
+                orderby newGroup.Key
+                select newGroup;
+
+            foreach (var nameGroup in queryPersons)
+            {
+                Console.WriteLine($"Key: {nameGroup.Key}");
+                foreach (var person in nameGroup)
+                {
+                    Console.WriteLine($"\t{person.FirstName}, {person.Age}");
+                }
+            }
+        }
 
 
         static void Main(string[] args)
@@ -257,15 +301,43 @@ namespace LINQExercises
 
 
 
-                // 5. Find and print all Freddy`s dogs names older than 1 year, grouped by dogs race.
-                // 6. Find and print last 10 persons grouped by their age.
-                // 7. Find and print all dogs names from Cristofer, Freddy, Erin and Amelia, grouped by color and ordered by name - ASCENDING ORDER.
-                // 8. Find and persons that have same dogs races and order them by name length ASCENDING, then by age DESCENDING.
-                // 9. Find the last dog of Amelia and print all dogs form other persons older than Amelia, ordered by dogs age DESCENDING.
-                // 10. Find all developers older than 20 with more than 1 dog that contains letter 'e' in the name and print their names and job positions.
+            // 5. Find and print all Freddy`s dogs names older than 1 year, grouped by dogs race.
+
+            Console.WriteLine("printing task 5 part 3");
+            var fredyOlderDogs = Freddy.Dogs.Where(p => p.Age > 1).ToList();
 
 
-                Console.ReadLine();
+            GroupBySinglePropertyDog(fredyOlderDogs);
+
+            //var groupedFredyList = fredyOlderDogs
+            //        .GroupBy(u => u.Race)
+            //     .Select(grp => grp.ToList())
+            //        .ToList();
+            //foreach (var group in groupedFredyList)
+            //{
+            //    foreach (var user in group)
+            //    {
+            //        Console.WriteLine("  {0}", user.Name + "" + user.Race);
+            //    }
+            //}
+
+            // 6. Find and print last 10 persons grouped by their age.
+
+            var lastTen = people.Skip(20).ToList();
+
+            GroupBySinglePropertyPerson(lastTen);
+
+            // Pls hints da gi napravam genericki ovie funkcii 
+
+
+
+            // 7. Find and print all dogs names from Cristofer, Freddy, Erin and Amelia, grouped by color and ordered by name - ASCENDING ORDER.
+            // 8. Find and persons that have same dogs races and order them by name length ASCENDING, then by age DESCENDING.
+            // 9. Find the last dog of Amelia and print all dogs form other persons older than Amelia, ordered by dogs age DESCENDING.
+            // 10. Find all developers older than 20 with more than 1 dog that contains letter 'e' in the name and print their names and job positions.
+
+
+            Console.ReadLine();
                 #endregion
             }
         }
