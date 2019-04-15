@@ -6,6 +6,13 @@ namespace LINQExercises
 {
     class Program
     {
+        public static void PrintDogs(List<Dog> dogs)
+        {
+            foreach (var dog in dogs)
+            {
+                Console.WriteLine(dog.Name);
+            }
+        }
 
         public static bool CheckIfDogsSame(Person p)
         {
@@ -38,8 +45,6 @@ namespace LINQExercises
         {
             Console.WriteLine("Group by a single property in an object:");
 
-            // Variable queryLastNames is an IEnumerable<IGrouping<string, 
-            // DataClass.Student>>. 
             var queryDogs =
                 from dog in dogs
                 group dog by dog.Race into newGroup
@@ -56,14 +61,30 @@ namespace LINQExercises
             }
         }
 
+        public static void GroupByColorDog(List<Dog> dogs)
+        {
+            Console.WriteLine("Group by a single property in an object:");
+
+            var queryDogs =
+                from dog in dogs
+                group dog by dog.Color into newGroup
+                orderby newGroup.Key
+                select newGroup;
+
+            foreach (var nameGroup in queryDogs)
+            {
+                Console.WriteLine($"Key: {nameGroup.Key}");
+                foreach (var dog in nameGroup.OrderBy(dog=>dog.Name))
+                {
+                    Console.WriteLine($"\t{dog.Name}, {dog.Color}");
+                }
+            }
+        }
 
         public static void GroupBySinglePropertyPerson(List<Person> persons)
         {
             Console.WriteLine("Group by a single property in an object:");
-
-            // Variable queryLastNames is an IEnumerable<IGrouping<string, 
-            // DataClass.Student>>. 
-            var queryPersons =
+                var queryPersons =
                 from person in persons
                 group person by person.Age into newGroup
                 orderby newGroup.Key
@@ -323,6 +344,8 @@ namespace LINQExercises
 
             // 6. Find and print last 10 persons grouped by their age.
 
+            Console.WriteLine("Find and print last 10 persons grouped by their age");
+
             var lastTen = people.Skip(20).ToList();
 
             GroupBySinglePropertyPerson(lastTen);
@@ -332,6 +355,18 @@ namespace LINQExercises
 
 
             // 7. Find and print all dogs names from Cristofer, Freddy, Erin and Amelia, grouped by color and ordered by name - ASCENDING ORDER.
+
+            var allDogsFromSomePeop = people.Where(x => x.FirstName == "Freddy" || x.FirstName == "Cristofer" || x.FirstName == "Erin" || x.FirstName == "Amelia").Select(x => x.Dogs).ToList();
+
+
+            foreach (var item in allDogsFromSomePeop)
+            {
+                GroupByColorDog(item);
+            }
+            
+            
+
+
             // 8. Find and persons that have same dogs races and order them by name length ASCENDING, then by age DESCENDING.
             // 9. Find the last dog of Amelia and print all dogs form other persons older than Amelia, ordered by dogs age DESCENDING.
             // 10. Find all developers older than 20 with more than 1 dog that contains letter 'e' in the name and print their names and job positions.
