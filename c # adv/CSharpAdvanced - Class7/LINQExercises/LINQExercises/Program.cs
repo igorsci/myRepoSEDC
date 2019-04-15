@@ -36,7 +36,7 @@ namespace LINQExercises
                 }
             }
 
-            Console.WriteLine(allSame);
+            //Console.WriteLine(allSame);
             return allSame;
 
         }
@@ -308,6 +308,10 @@ namespace LINQExercises
             }
 
             // 4. Find and print all persons names, last names and job positions that have just one race type dogs.
+
+            //another way 
+            // using distinct method - metod sto gi trgnuva duplikatite i so selekt da se kreiran nov anonimen objekt so propertija sto ni trebat na nas 
+            // another way
             Console.WriteLine("gledaj tuka za kucinja so edna rasa");
             foreach (var item in people)
             {
@@ -368,6 +372,7 @@ namespace LINQExercises
 
 
             // 8. Find and persons that have same dogs races and order them by name length ASCENDING, then by age DESCENDING.
+            // try with intersec method i check the link query from the class ?????
             // 9. Find the last dog of Amelia and print all dogs form other persons older than Amelia, ordered by dogs age DESCENDING.
             // 10. Find all developers older than 20 with more than 1 dog that contains letter 'e' in the name and print their names and job positions.
 
