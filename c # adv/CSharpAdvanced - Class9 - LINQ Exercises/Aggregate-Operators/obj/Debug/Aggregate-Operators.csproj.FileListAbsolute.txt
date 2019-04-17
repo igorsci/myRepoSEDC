@@ -1,0 +1,10 @@
+C:\Users\igor.mitevski\Desktop\IGOR M\C#AdvancedGit\g6\CSharpAdvanced - Class9\CSharpAdvanced - Class9 - LINQ Exercises\Aggregate-Operators\bin\Debug\Aggregate-Operators.exe.config
+C:\Users\igor.mitevski\Desktop\IGOR M\C#AdvancedGit\g6\CSharpAdvanced - Class9\CSharpAdvanced - Class9 - LINQ Exercises\Aggregate-Operators\bin\Debug\Aggregate-Operators.exe
+C:\Users\igor.mitevski\Desktop\IGOR M\C#AdvancedGit\g6\CSharpAdvanced - Class9\CSharpAdvanced - Class9 - LINQ Exercises\Aggregate-Operators\bin\Debug\Aggregate-Operators.pdb
+C:\Users\igor.mitevski\Desktop\IGOR M\C#AdvancedGit\g6\CSharpAdvanced - Class9\CSharpAdvanced - Class9 - LINQ Exercises\Aggregate-Operators\bin\Debug\DataFromXml.exe
+C:\Users\igor.mitevski\Desktop\IGOR M\C#AdvancedGit\g6\CSharpAdvanced - Class9\CSharpAdvanced - Class9 - LINQ Exercises\Aggregate-Operators\bin\Debug\DataFromXml.pdb
+C:\Users\igor.mitevski\Desktop\IGOR M\C#AdvancedGit\g6\CSharpAdvanced - Class9\CSharpAdvanced - Class9 - LINQ Exercises\Aggregate-Operators\obj\Debug\Aggregate-Operators.csprojAssemblyReference.cache
+C:\Users\igor.mitevski\Desktop\IGOR M\C#AdvancedGit\g6\CSharpAdvanced - Class9\CSharpAdvanced - Class9 - LINQ Exercises\Aggregate-Operators\obj\Debug\Aggregate-Operators.csproj.CoreCompileInputs.cache
+C:\Users\igor.mitevski\Desktop\IGOR M\C#AdvancedGit\g6\CSharpAdvanced - Class9\CSharpAdvanced - Class9 - LINQ Exercises\Aggregate-Operators\obj\Debug\Aggregate-Operators.csproj.CopyComplete
+C:\Users\igor.mitevski\Desktop\IGOR M\C#AdvancedGit\g6\CSharpAdvanced - Class9\CSharpAdvanced - Class9 - LINQ Exercises\Aggregate-Operators\obj\Debug\Aggregate-Operators.exe
+C:\Users\igor.mitevski\Desktop\IGOR M\C#AdvancedGit\g6\CSharpAdvanced - Class9\CSharpAdvanced - Class9 - LINQ Exercises\Aggregate-Operators\obj\Debug\Aggregate-Operators.pdb
