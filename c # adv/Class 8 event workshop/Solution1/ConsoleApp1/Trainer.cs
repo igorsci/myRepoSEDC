@@ -21,7 +21,7 @@ namespace ConsoleApp1
             if(StudentResults != null)
             {
                 StudentResults(exam);
-                Console.WriteLine(exam.Student.FirstName + "with id" + exam.Student.StudentId + "has points" + exam.Points);
+                //Console.WriteLine(exam.Student.FirstName + "with id" + exam.Student.StudentId + "has points" + exam.Points);
             }
             
         }
