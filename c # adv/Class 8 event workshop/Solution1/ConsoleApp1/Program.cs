@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace ConsoleApp1
 {
     class Program
@@ -25,11 +26,18 @@ namespace ConsoleApp1
             examResults.Add(new Exam() { Student = st2, Points = 60 });
 
             train1.StudentResults += st1.Verify;
+            foreach (var item in examResults)
+            {
+                train1.ResultsAnnouncement(item);
+            }
+            
+           
+            Console.ReadLine();
         }
-        
 
         
+
     }
-    
+
 
 }
