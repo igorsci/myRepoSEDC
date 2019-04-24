@@ -1,0 +1,9 @@
+C:\Users\igor.mitevski\Desktop\IGOR M\myRepoGIT\CSharpAdvanced-Class12Exercise\Models\bin\Debug\Models.dll
+C:\Users\igor.mitevski\Desktop\IGOR M\myRepoGIT\CSharpAdvanced-Class12Exercise\Models\bin\Debug\Models.pdb
+C:\Users\igor.mitevski\Desktop\IGOR M\myRepoGIT\CSharpAdvanced-Class12Exercise\Models\obj\Debug\Models.csprojAssemblyReference.cache
+C:\Users\igor.mitevski\Desktop\IGOR M\myRepoGIT\CSharpAdvanced-Class12Exercise\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+C:\Users\igor.mitevski\Desktop\IGOR M\myRepoGIT\CSharpAdvanced-Class12Exercise\Models\obj\Debug\Models.dll
+C:\Users\igor.mitevski\Desktop\IGOR M\myRepoGIT\CSharpAdvanced-Class12Exercise\Models\obj\Debug\Models.pdb
+C:\Users\igor.mitevski\Desktop\IGOR M\myRepoGIT\CSharpAdvanced-Class12Exercise\Models\bin\Debug\Newtonsoft.Json.dll
+C:\Users\igor.mitevski\Desktop\IGOR M\myRepoGIT\CSharpAdvanced-Class12Exercise\Models\bin\Debug\Newtonsoft.Json.xml
+C:\Users\igor.mitevski\Desktop\IGOR M\myRepoGIT\CSharpAdvanced-Class12Exercise\Models\obj\Debug\Models.csproj.CopyComplete

@@ -1,0 +1,26 @@
+[
+  {
+    "ID": 1,
+    "Name": "Miodrag",
+    "Gender": "M",
+    "WorkPhone": "78123456",
+    "Address": "Address 1",
+    "Skills": [
+      "C#",
+      "ASP.NET",
+      "Git"
+    ]
+  },
+  {
+    "ID": 3,
+    "Name": "Andrej",
+    "Gender": "M",
+    "WorkPhone": "78123456",
+    "Address": null,
+    "Skills": [
+      "C#",
+      "CSS/HTML",
+      "Visual Studio"
+    ]
+  }
+]

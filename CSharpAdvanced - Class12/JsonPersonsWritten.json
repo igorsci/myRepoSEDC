@@ -1,0 +1,27 @@
+[
+  {
+    "ID": 1234,
+    "Name": "Miodrag Cekikj",
+    "Address": "Address 1",
+    "City": "Skopje",
+    "Email": "cekicmiodrag@gmail.com",
+    "Skills": [
+      "C#",
+      ".NET",
+      "Sql Server",
+      "MVC"
+    ]
+  },
+  {
+    "ID": 1235,
+    "Name": "Andrej Chichakovski",
+    "Address": "Address 2",
+    "City": "Skopje",
+    "Email": "andrejchichak@gmail.com",
+    "Skills": [
+      "C#",
+      "Web API",
+      "HTML/CSS"
+    ]
+  }
+]

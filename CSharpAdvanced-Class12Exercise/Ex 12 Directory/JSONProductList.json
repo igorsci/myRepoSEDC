@@ -1,0 +1,219 @@
+[
+  {
+    "Id": 1,
+    "Name": "HDD",
+    "Color": 2,
+    "Channel": 2,
+    "SerialInfo": {
+      "SerialNumber": "S001PN1",
+      "BuildVersion": 1
+    },
+    "MarketValueDetails": {
+      "Quantity": 10,
+      "Price": 1000.5
+    },
+    "ProductionCondition": 1,
+    "DestinationCountries": [
+      "Macedonia",
+      "Iraq"
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "CPU",
+    "Color": 7,
+    "Channel": 2,
+    "SerialInfo": {
+      "SerialNumber": "S001PN111",
+      "BuildVersion": 12
+    },
+    "MarketValueDetails": {
+      "Quantity": 12,
+      "Price": 500.7
+    },
+    "ProductionCondition": 2,
+    "DestinationCountries": [
+      "China",
+      "Iraq",
+      "Iran",
+      "Brazil"
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "SSD",
+    "Color": 7,
+    "Channel": 1,
+    "SerialInfo": {
+      "SerialNumber": "S001PN9",
+      "BuildVersion": 11
+    },
+    "MarketValueDetails": {
+      "Quantity": 4,
+      "Price": 780.99
+    },
+    "ProductionCondition": 1,
+    "DestinationCountries": [
+      "Macedonia",
+      "Hungary"
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "CPU",
+    "Color": 2,
+    "Channel": 2,
+    "SerialInfo": {
+      "SerialNumber": "S001PN8",
+      "BuildVersion": 10
+    },
+    "MarketValueDetails": {
+      "Quantity": 8,
+      "Price": 800.0
+    },
+    "ProductionCondition": 2,
+    "DestinationCountries": [
+      "Albania",
+      "Serbia"
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "Motherboard",
+    "Color": 4,
+    "Channel": 1,
+    "SerialInfo": {
+      "SerialNumber": "S002PN10",
+      "BuildVersion": 5
+    },
+    "MarketValueDetails": {
+      "Quantity": 2,
+      "Price": 1500.5
+    },
+    "ProductionCondition": 1,
+    "DestinationCountries": [
+      "Angola",
+      "Algeria",
+      "American Samoa"
+    ]
+  },
+  {
+    "Id": 6,
+    "Name": "VideoCard",
+    "Color": 3,
+    "Channel": 1,
+    "SerialInfo": {
+      "SerialNumber": "S002PN9",
+      "BuildVersion": 5
+    },
+    "MarketValueDetails": {
+      "Quantity": 9,
+      "Price": 999.99
+    },
+    "ProductionCondition": 2,
+    "DestinationCountries": [
+      "Cameroon",
+      "Iraq"
+    ]
+  },
+  {
+    "Id": 7,
+    "Name": "PowerSuply",
+    "Color": 5,
+    "Channel": 2,
+    "SerialInfo": {
+      "SerialNumber": "S002PN11",
+      "BuildVersion": 6
+    },
+    "MarketValueDetails": {
+      "Quantity": 1,
+      "Price": 500.65
+    },
+    "ProductionCondition": 1,
+    "DestinationCountries": [
+      "Macedonia",
+      "Denmark",
+      "Norway"
+    ]
+  },
+  {
+    "Id": 8,
+    "Name": "RAM",
+    "Color": 3,
+    "Channel": 1,
+    "SerialInfo": {
+      "SerialNumber": "S003PN1",
+      "BuildVersion": 3
+    },
+    "MarketValueDetails": {
+      "Quantity": 14,
+      "Price": 2700.67
+    },
+    "ProductionCondition": 2,
+    "DestinationCountries": [
+      "Romania",
+      "Russia",
+      "Qatar"
+    ]
+  },
+  {
+    "Id": 9,
+    "Name": "Keyboard",
+    "Color": 2,
+    "Channel": 1,
+    "SerialInfo": {
+      "SerialNumber": "S004PN1",
+      "BuildVersion": 9
+    },
+    "MarketValueDetails": {
+      "Quantity": 6,
+      "Price": 400.44
+    },
+    "ProductionCondition": 1,
+    "DestinationCountries": [
+      "Macedonia",
+      "Russia",
+      "Morocco",
+      "Malta"
+    ]
+  },
+  {
+    "Id": 10,
+    "Name": "Mouse",
+    "Color": 6,
+    "Channel": 2,
+    "SerialInfo": {
+      "SerialNumber": "S005PN234",
+      "BuildVersion": 2
+    },
+    "MarketValueDetails": {
+      "Quantity": 5,
+      "Price": 67.89
+    },
+    "ProductionCondition": 2,
+    "DestinationCountries": [
+      "Nigeria",
+      "Peru"
+    ]
+  },
+  {
+    "Id": 11,
+    "Name": "Speaker",
+    "Color": 1,
+    "Channel": 2,
+    "SerialInfo": {
+      "SerialNumber": "S007PNSG54",
+      "BuildVersion": 1
+    },
+    "MarketValueDetails": {
+      "Quantity": 50,
+      "Price": 2300.11
+    },
+    "ProductionCondition": 1,
+    "DestinationCountries": [
+      "Portugal",
+      "Poland",
+      "Spain"
+    ]
+  }
+]
