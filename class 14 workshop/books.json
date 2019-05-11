@@ -1,0 +1,72 @@
+[
+  {
+    "Title": "book1",
+    "PubYear": 2018,
+    "Genre": "roman",
+    "Author": "Igor mitevski",
+    "NumberOfPages": 65,
+    "NumberOfCopies": 4,
+    "NumberOfRents": 0,
+    "ISBN": 11223
+  },
+  {
+    "Title": "book2",
+    "PubYear": 2016,
+    "Genre": "com",
+    "Author": "stojan stojanov",
+    "NumberOfPages": 33,
+    "NumberOfCopies": 10,
+    "NumberOfRents": 0,
+    "ISBN": 1133
+  },
+  {
+    "Title": "book2",
+    "PubYear": 2016,
+    "Genre": "com",
+    "Author": "stojan stojanov",
+    "NumberOfPages": 33,
+    "NumberOfCopies": 10,
+    "NumberOfRents": 0,
+    "ISBN": 1133
+  },
+  {
+    "Title": "book2",
+    "PubYear": 2016,
+    "Genre": "com",
+    "Author": "stojan stojanov",
+    "NumberOfPages": 33,
+    "NumberOfCopies": 10,
+    "NumberOfRents": 0,
+    "ISBN": 1133
+  },
+  {
+    "Title": "book2",
+    "PubYear": 2016,
+    "Genre": "com",
+    "Author": "stojan stojanov",
+    "NumberOfPages": 33,
+    "NumberOfCopies": 10,
+    "NumberOfRents": 0,
+    "ISBN": 1133
+  },
+  {
+    "Title": "book2",
+    "PubYear": 2016,
+    "Genre": "com",
+    "Author": "stojan stojanov",
+    "NumberOfPages": 33,
+    "NumberOfCopies": 10,
+    "NumberOfRents": 0,
+    "ISBN": 1133
+  },
+  {
+    "Title": "book2",
+    "PubYear": 2016,
+    "Genre": "com",
+    "Author": "stojan stojanov",
+    "NumberOfPages": 33,
+    "NumberOfCopies": 10,
+    "NumberOfRents": 0,
+    "ISBN": 1133
+  }
+]
