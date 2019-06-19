@@ -5,7 +5,6 @@ C:\Users\igor.mitevski\Desktop\IGOR M\ASPNET\MusicStoreWebApp\MusicStoreWebApp\b
 C:\Users\igor.mitevski\Desktop\IGOR M\ASPNET\MusicStoreWebApp\MusicStoreWebApp\bin\Debug\netcoreapp2.1\MusicStoreWebApp.pdb
 C:\Users\igor.mitevski\Desktop\IGOR M\ASPNET\MusicStoreWebApp\MusicStoreWebApp\bin\Debug\netcoreapp2.1\MusicStoreWebApp.Views.dll
 C:\Users\igor.mitevski\Desktop\IGOR M\ASPNET\MusicStoreWebApp\MusicStoreWebApp\bin\Debug\netcoreapp2.1\MusicStoreWebApp.Views.pdb
-C:\Users\igor.mitevski\Desktop\IGOR M\ASPNET\MusicStoreWebApp\MusicStoreWebApp\obj\Debug\netcoreapp2.1\MusicStoreWebApp.csprojAssemblyReference.cache
 C:\Users\igor.mitevski\Desktop\IGOR M\ASPNET\MusicStoreWebApp\MusicStoreWebApp\obj\Debug\netcoreapp2.1\MusicStoreWebApp.csproj.CoreCompileInputs.cache
 C:\Users\igor.mitevski\Desktop\IGOR M\ASPNET\MusicStoreWebApp\MusicStoreWebApp\obj\Debug\netcoreapp2.1\MusicStoreWebApp.RazorAssemblyInfo.cache
 C:\Users\igor.mitevski\Desktop\IGOR M\ASPNET\MusicStoreWebApp\MusicStoreWebApp\obj\Debug\netcoreapp2.1\MusicStoreWebApp.RazorAssemblyInfo.cs
@@ -30,4 +29,8 @@ C:\Users\igor.mitevski\Desktop\IGOR M\ASPNET\MusicStoreWebApp\MusicStoreWebApp\o
 C:\Users\igor.mitevski\Desktop\IGOR M\ASPNET\MusicStoreWebApp\MusicStoreWebApp\obj\Debug\netcoreapp2.1\MusicStoreWebApp.dll
 C:\Users\igor.mitevski\Desktop\IGOR M\ASPNET\MusicStoreWebApp\MusicStoreWebApp\obj\Debug\netcoreapp2.1\MusicStoreWebApp.pdb
 C:\Users\igor.mitevski\Desktop\IGOR M\ASPNET\MusicStoreWebApp\MusicStoreWebApp\obj\Debug\netcoreapp2.1\MusicStoreWebApp.csproj.CopyComplete
-C:\Users\igor.mitevski\Desktop\IGOR M\ASPNET\MusicStoreWebApp\MusicStoreWebApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Music.g.cshtml.cs
+C:\Users\igor.mitevski\Desktop\IGOR M\ASPNET\MusicStoreWebApp\MusicStoreWebApp\obj\Debug\netcoreapp2.1\MusicStoreWebApp.csprojAssemblyReference.cache
+C:\Users\igor.mitevski\Desktop\IGOR M\ASPNET\MusicStoreWebApp\MusicStoreWebApp\obj\Debug\netcoreapp2.1\Razor\Views\Music\Music.g.cshtml.cs
+C:\Users\igor.mitevski\Desktop\IGOR M\ASPNET\MusicStoreWebApp\MusicStoreWebApp\obj\Debug\netcoreapp2.1\Razor\Views\Music\Edit.g.cshtml.cs
+C:\Users\igor.mitevski\Desktop\IGOR M\ASPNET\MusicStoreWebApp\MusicStoreWebApp\obj\Debug\netcoreapp2.1\Razor\Views\Music\Delete.g.cshtml.cs
+C:\Users\igor.mitevski\Desktop\IGOR M\ASPNET\MusicStoreWebApp\MusicStoreWebApp\obj\Debug\netcoreapp2.1\Razor\Views\Music\Create.g.cshtml.cs

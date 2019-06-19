@@ -71,7 +71,7 @@ using MusicStoreWebApp.Models;
                     ");
             EndContext();
             BeginContext(330, 595, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "57ca7778e0b44c15a016b94ddb47d23e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "48072e2aba9d4973b639b6ba30c79712", async() => {
                 BeginContext(386, 532, true);
                 WriteLiteral(@"
                         <input type=""text"" class=""contact_input"" placeholder=""Name"" required=""required"">

@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using MusicStoreWebApp.Data;
 using MusicStoreWebApp.Models;
 
 namespace MusicStoreWebApp.Controllers
@@ -29,7 +30,11 @@ namespace MusicStoreWebApp.Controllers
 
         public IActionResult Music()
         {
-            return View();
+            ListViewAlbums model = new ListViewAlbums
+            {
+                AlbumList = AlbumDataBase.AlbumList
+            };
+            return View(model);
         }
 
         public IActionResult Privacy()

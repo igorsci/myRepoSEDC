@@ -1,0 +1,44 @@
+﻿
+
+@model ListViewAlbums
+@{
+    Layout = "_Layout";
+}
+
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Number Of Songs</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Album album in Model.AlbumList)
+        {
+        <tr>
+            <td>@album.Id</td>
+            <td>@album.Name</td>
+            <td>@album.Price</td>
+
+            <td>
+                <a asp-controller="Music"
+                   asp-action="Create"
+                   asp-route-id="@album.Id"
+                   class="btn btn-info">Details</a>
+                <a asp-controller="Music"
+                   asp-action="Edit"
+                   asp-route-id="@album.Id" class="btn btn-warning">Edit</a>
+                <a asp-controller="Music"
+                   asp-action="Delete"
+                   asp-route-id="@album.Id" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-primary" asp-controller="Music" asp-action="Create">Create Album</a>
